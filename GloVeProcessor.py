@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 
 vocab_size = 18794
-glove_path = "C:\\Users\Equip\Desktop\Shubham's Stuff\glove.6B\glove.6B.50d.txt"
+glove_path = "glove.6B\glove.6B.50d.txt"
 tokenizer_path = "glove_embedding/tokenizer.pkl"
 output_file_path = 'glove_embedding/embedding.npy'
 output_dim = 50

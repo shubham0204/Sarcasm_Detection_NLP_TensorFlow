@@ -59,3 +59,4 @@ class Classifier( object ):
 
 	def load_model(self, file_path):
 		self.__model = tf.keras.models.load_model(file_path)
+
